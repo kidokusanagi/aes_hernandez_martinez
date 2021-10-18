@@ -9,20 +9,29 @@
     <title>Cifrado AES </title>
 </head>
 <body>
-<a href="javascript:history.go(-1)">Regresar</a>  
-<div class="main-container">
-    <div class="">
-        <form>
-            <h2>Selecciona el archivo a encriptar</h2>
-            <br><input type="file" id="archivo1" />
-            <br><input type="password" placeholder="Intoduce la contraseña" id='contraseña' maxlength="24" minlength="24" ></td>
-            <br><input type="button" onclick="encriptar()" value="Cifrar" id="enviar">
-            <td>&nbsp;<input class="btn btn-primary" type="button" value="Descifrar" onclick="desencriptar()">
-            </form> 
- <div class="vis" id="visualizar"></div>
+    <div class="main-container">
+        <div class="whenFlexeas">
+            <form>
+                <h2>Selecciona el archivo a encriptar</h2>
+                <br><input type="file" id="archivo1" />
+                <br><br><input type="password" placeholder="Intoduce la contraseña" id='contraseña' maxlength="24" minlength="24" ></td>
+                <br><br><input type="button" onclick="encriptar()" value="Cifrar" id="enviar">
+                <td>&nbsp;<input class="btn btn-primary" type="button" value="Descifrar" onclick="desencriptar()">
+                </form> 
+                <br>
+    <div class="vis" id="visualizar"></div>
+        </div>
     </div>
-</div>
-<script src="js/cifrado2.js"> </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
-</body>
-</html>
+    <a href="javascript:history.go(-1)">Regresar</a>  
+    <br>
+    <br>
+    <div>
+        <footer>
+                Granados Martínez Pablo Daniel
+                <br>
+                Hernández Martínez Brian Arturo
+        </footer>
+    </div>
+    <script src="js/cifrado2.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</body></html>

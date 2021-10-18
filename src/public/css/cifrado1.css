@@ -1,7 +1,11 @@
 *{
     background-color: rgb(113, 197, 197);
     font-size: 40px;
+    padding: 0;
+    color: #000000;
+    text-align:center;
 }
+
 html{
     width: 100%;
     height: 200px;
@@ -9,4 +13,18 @@ html{
     max-height: 1000px;
     height: 100%;
     font-size: 1.5rem;
+    align-self: center;
+    margin:0px;
+    background-size: 100% 110%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+    border: 2px solid;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: max-content;
+    display: inline-block;
+    background-color: #F5CDA7;
 }
